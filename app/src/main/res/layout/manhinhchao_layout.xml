@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#8044903E"
+        android:paddingTop="50dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iconbag"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chỉ cần NLShop có, không khó mua tại NLShop"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iconmoney"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giao hàng tận nơi, thanh toán dễ dàng"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iconsercurity"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quyền lợi của bạn là trách nhiệm của chúng tôi"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logonls1"
+        android:layout_gravity="center|bottom"
+        android:paddingBottom="20dp"/>
+
+</FrameLayout>

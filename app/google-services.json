@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "29576957399",
+    "project_id": "nlushop",
+    "storage_bucket": "nlushop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29576957399:android:285169404d062a7de18f92",
+        "android_client_info": {
+          "package_name": "com.example.nlushop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29576957399-1s0r1cjn9tqg9dvu3aqa9kcfde32eevb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nlushop",
+            "certificate_hash": "f0009ca13932cc257c946431f8df5efd920b3821"
+          }
+        },
+        {
+          "client_id": "29576957399-1166bp2ubkr253rovk2m7628msv8m4g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLtvzpwD_WW_3kKtiowBnKV2oyvPzH9nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29576957399-1166bp2ubkr253rovk2m7628msv8m4g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

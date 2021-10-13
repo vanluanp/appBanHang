@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardViewNoiBat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:contentPadding="2dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="1dp"
+        >
+<!--        contentPadding để lộ khoảng background bên dưới ảnh -->
+<!--        card_view:cardUseCompatPadding="true" để đổ bóng-->
+<!--        card_view:cardElevation="2dp" khoảng cách bóng viền ngoài-->
+        
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/splashscreen"/>
+        
+        <TextView
+            android:id="@+id/txtTieuDeNoiBat"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="10dp"
+            android:text="Tiêu đề 1"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

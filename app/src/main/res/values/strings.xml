@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NLUShop</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <string name="facebook_app_id">1095796207524636</string>
+    <string name="fb_login_protocol_scheme">fb1095796207524636</string>
+    <string name="google_plus_client">29576957399-1s0r1cjn9tqg9dvu3aqa9kcfde32eevb.apps.googleusercontent.com</string>
+
+    <string name="textViewLabelFragmentDangKy">Cần điền tất cả các mục</string>
+    <string name="fullName">Họ và tên</string>
+    <string name="email">Địa chỉ email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="requiedPassword">Mật khẩu phải bao gồm ít nhất 6 kí tự và 1 chữ hoa</string>
+    <string name="retypePassword">Nhập lại mật khẩu</string>
+    <string name="switchTextDangKy">Tôi muốn nhận các khuyến mãi độc quyền qua email</string>
+    <string name="dieuKhoanDK">Tôi đã đọc và hiểu rõ các điều khoản bảo mật của Lazada</string>
+    <string name="dangKy">Đăng ký</string>
+    <string name="orRegister">Hoặc đăng ký bằng</string>
+</resources>

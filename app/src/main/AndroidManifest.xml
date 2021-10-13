@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nlushop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NLUShop"
+        android:networkSecurityConfig="@xml/network_security_config">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.FacebookActivity" android:configChanges= "keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:label="@string/app_name" />
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true"> <intent-filter> <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" /> <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="@string/fb_login_protocol_scheme" /> </intent-filter> </activity>
+
+
+        <activity android:name=".view.manHinhChao.ManHinhChaoActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".view.trangChu.TrangChuActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".view.dangNhap_dangKy.DangNhapActivity"
+            android:screenOrientation="portrait"
+            android:label="Đăng nhập/Đăng ký"></activity>
+
+        <activity android:name=".view.hienThiSanPhamTheoDanhMuc.HienThiSanPhamTheoDanhMucActivity"
+            android:label="Danh mục"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".view.chiTietSanPham.ChiTietSanPhamActivity"
+            android:label="Chi tiết sản phẩm"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".view.thanhToan.ThanhToanActivity"
+            android:label="Thanh toán"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".view.danhGia.ThemDanhGiaActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog"
+            android:screenOrientation="portrait"></activity>
+
+<!--        android:theme="@style/Base.Theme.AppCompat.Dialog" để nó là một cái popup thêm nhận xét-->
+
+        <activity android:name=".view.danhGia.DanhSachDanhGiaActivity"
+            android:label="Đánh giá"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".view.gioHang.GioHangActivity"
+            android:label="Giỏ hàng"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".view.timKiem.TimKiemActivity"
+            android:label="Tìm kiếm"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".view.chiTietSanPham.SoSanhActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog"
+            android:label="So sánh"
+            android:screenOrientation="portrait"></activity>
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+    </application>
+
+    //Phải có để kết nối đến host/ internet
+    <uses-permission android:name="android.permission.INTERNET"/>
+    //Lấy thông tin về điện thoại
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+</manifest>

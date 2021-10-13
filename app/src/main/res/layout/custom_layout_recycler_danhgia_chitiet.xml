@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:id="@+id/txtTieuDeDanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiêu đề"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:id="@+id/rbDanhGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        style="?android:ratingBarStyleSmall"
+        android:theme="@style/DoiMauNgoiSaoRatingBar"/>
+    <TextView
+        android:id="@+id/txtDuocDangBoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:textSize="14sp"
+        android:text="Được đăng bởi"/>
+
+    <TextView
+        android:id="@+id/txtNoiDungDanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Nội dung đánh giá"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

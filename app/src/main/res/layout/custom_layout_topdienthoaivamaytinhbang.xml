@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <Button
+        android:id="@+id/btnSoSanh"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:text="So sánh"
+        android:layout_gravity="center"
+        android:background="@color/bgToolBarTransparent"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        />
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:contentPadding="2dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="2dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/imTopDienThoaiDienTu"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/splashscreen"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/txtTieuDeTopDienThoaiDienTu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên sản phẩm"
+                android:layout_marginBottom="5dp"
+                android:maxLength="20"/>
+
+            <TextView
+                android:id="@+id/txtGiaDienTu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá tiền"
+                android:textColor="@color/colorRed"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtGiamGiaDienTu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/txtPhanTramGiam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/bgToolBar"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

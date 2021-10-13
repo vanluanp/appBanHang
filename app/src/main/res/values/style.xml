@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="capfale" parent="TextAppearance.Design.Tab">
+
+        <item name="textAllCaps">false</item>
+
+    </style>
+    //PasswordEditText chính là name của PasswordEditText class, cũng là cái thẻ PasswordEditText gọi trong layout_fragment_dangnhap.xml
+    //useEyeHide chính là name app mà áp dụng trong thẻ PasswordEditText
+    <declare-styleable name="PasswordEditText">
+        <attr name="useEyeHide" format="boolean"/>
+        <attr name="useValidate" format="boolean"/>
+    </declare-styleable>
+
+</resources>
